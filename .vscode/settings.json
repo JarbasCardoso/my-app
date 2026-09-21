@@ -1,0 +1,15 @@
+  {
+    "files.exclude": {
+      "**/.expo": true,
+      "**/node_modules" :true,
+      "**/.react": true,
+      "**/scripts": true,
+      "**/.gitignore": true,
+      "**/app.json" : true,
+      "**/expo-env.d.ts" : true,
+      "**/LICENSE": true,
+      "**/package-lock.json" : true,
+      "**/tsconfig.json": true,
+
+    },
+  }
