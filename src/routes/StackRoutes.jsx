@@ -2,24 +2,23 @@
 //import{createNativeStackNavigator} from '@react-navigation/stack'
 
 //const Stack= createNative
-
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from '../screens/Home';
 import Product from '../screens/Product';
-const Stack =createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 export function StackRoutes (){
 
     return (
 
         <Stack.Navigator>
             <Stack.Screen
-              name="Home"
+              name="home"
               component ={Home}
 
             />
 
               <Stack.Screen
-              name="Product"
+              name="product"
               component ={Product}
 
             />

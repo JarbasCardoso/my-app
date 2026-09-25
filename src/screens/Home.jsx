@@ -8,7 +8,7 @@ import ButtonIcon from "../components/Buttonlcon";
 
 export default function Home() {
     
-    const navigation = useNavigation ();
+    const navigation = useNavigation();
      return(
 
         <View style={{
@@ -24,7 +24,7 @@ export default function Home() {
                 <ButtonIcon
                 
                 icon="add-circle"
-                onPress={() =>navigation.navigate("product")}
+                onPress={() => navigation.navigate("product")}
                 />
 
 

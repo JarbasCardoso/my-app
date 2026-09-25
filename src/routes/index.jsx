@@ -1,6 +1,7 @@
 //Arquivo responsavel por criar um contextto de navegação
 
-import { NavigationContainer, StackRouter } from "@react-navigation/native";
+import { NavigationContainer } from "@react-navigation/native";
+import { StackRoutes } from "./StackRoutes";
 
 
 export function Routes (){
@@ -8,9 +9,7 @@ export function Routes (){
 
     return (
          <NavigationContainer>
-
-            <StackRouter/>
-
+            <StackRoutes/>  
          </NavigationContainer>
 
 

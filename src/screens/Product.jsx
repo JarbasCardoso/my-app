@@ -21,7 +21,7 @@ export default function Product() {
                     <ButtonIcon
                     
                     icon="arrow-circle-left"
-                    onPress={()=>navigation.goBack}
+                    onPress={()=>navigation.goBack()}
                     />
                     <Title>Product</Title>
     
